@@ -1,0 +1,61 @@
+body{
+    margin:0px;
+    padding:0px;
+    text-align: center;
+}
+h1{
+    background-color: rgb(2, 2, 71);
+    color:white;
+    margin-top: 0px;
+    padding:10px;
+}
+.choices{
+    height: 200px;
+    width:200px;
+    display:flex;
+    gap:10px;
+    margin-left: 500px;
+    
+}
+img{
+    height: 150px;
+    width:150px;
+}
+
+#stone:hover{
+    border:10px solid black;
+    padding-top:30px;
+    border-radius: 10%;
+}
+#paper:hover{
+    border:10px solid black;
+    padding-top:30px;
+    border-radius: 10%;
+}
+ #scissors:hover{
+    border:10px solid black;
+    padding-top:30px;
+    border-radius: 10%;
+}
+.scoreboard{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin-top:50px;
+    font-size: 30px;
+     gap:100px;
+}
+
+#user ,#comp-score{
+  font-size: 20px;
+   
+}
+#msg{
+    background-color: black;
+    color:white;
+    font-size:40px;
+    padding:10px;
+    display:inline;
+    margin-top:10px;
+    border-radius:1rem;
+}
